@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    margin: 0;
+    padding: 72;
+    background: url(new7.webp) no-repeat;
+    background-size: cover;
+}
+   
+.box{
+    width: 450px;
+    background: rgb(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Caladea', serif;
+}
+.box-img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+    font-size: 42px;
+    font-weight: 300;
+    color: beige;
+}
+.break{
+     background-size: cover;
+    background-color: #FFFFFF;
+    
+}
+.breal{
+     background-size: cover;
+    background-color: #f6f5f3;
+    
+    
+}
+  .carousel-inner img {
+      width: 70%;
+      height: 70%;
+      margin-left: 260px;
+  }
+
+#preference{
+    background-size: cover;
+    background-color: 	#f6f5f3;
+}
+.hrr{
+    margin-bottom: -12px;
+}
+.ht{
+    margin-top: -16px;
+}
+.profile{
+    margin: 20px 0;
+}
+.profile-sidebar{
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+.profile-user-pic{
+    float: none;
+    margin-left: 0px;
+    width: 50%;
+    height: 50%;
+    margin-top: -20px;
+}
+.profile-user-title{
+    text-align: center;
+    margin-top: 5px;
+}
+.profile-user-name{
+    color: #5a73a1;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.profile-user-job{
+    text-transform: uppercase;
+    color: #5babd1;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.mable p{
+    margin-top: -355px;
+    margin-left: 330px;
+}
+#customers{
+     margin-left: 330px; 
+    border-collapse: collapse;
+    width: 77%;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.note p{
+     margin-left: 330px;
+    
+}
+#Skills span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Skills hr
+{
+    border-width: 2px;
+    margin-top: 06px;    
+}
+#Contact span
+{
+    padding: 10px 20px 10px 20px;
+}
+#Contact hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+.imaige{
+    margin-left: 450px;
+}
+.facebook li{
+    margin-top: -105px;
+    margin-left: 170px;
+    list-style: none;
+    display: inline-block;
+    font-size: 80px;
+    padding: 20px 20px;
+ 
+}
+.gmail li{
+ margin-left: 405px;
+    margin-top: 30px;
+    list-style: none;
+    display: inline-block;
+    font-size: 80px;
+    padding: 20px 20px;
+ 
+}
+.link li{
+    margin-left: 650px;
+    margin-top: -328px;
+    font-size: 80px;
+    list-style: none;
+    padding: 20px 20px;
+    
+}
+.github li{
+    margin-top: -387px;
+    margin-left: 405px;
+    font-size: 85px;
+    list-style: none;
+    padding: 20px 20px;
+}
+.footer p{
+    margin-top: 250px;
+}
+
+    
+
+
+
+  
+
+  
+
+
+ 

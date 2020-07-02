@@ -275,7 +275,7 @@
                     <div class="card bg-white">
                         <div class="card-header">
                         <h4 class="my-4 text-center" >Contact me on Below</h4> 
-                        <form name="myform" class="box" action="#" method="post" onsubmit="return validation()">
+                        <form name="myform" class="box" action="#" method="post" onsubmit="return ValidateForm()">
                             <div class="form-group">
                         <input type="text" id="usa" placeholder=" User Name " class="form-control">
                         </div>
@@ -310,7 +310,6 @@
                 else if(atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
                 alert("Please enter a valid e-mail address"); 
                 }
-                return false;
                 else{
                     alert("Your Response has been submitted");
                 }

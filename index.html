@@ -284,7 +284,7 @@
                         <input type="text" id="ema" placeholder=" Email " class="form-control">
                         </div>
                             <div class="form-group">
-                        <textarea class="form-control" placeholder="Write Something on Here..."></textarea>
+                        <textarea class="form-control" id="text" placeholder="Write Something on Here..."></textarea>
                         </div>
                             
                             <div class="form-group">
@@ -304,6 +304,7 @@
             {
                 var a=document.getElementById('usa').value;
                 var b=document.getElementById('ema').value;
+                var c=document.getElementById('text').value;
                 var atposition=b.indexOf("@");  
                 var dotposition=b.lastIndexOf("."); 
                 if(a==''|| b==''){
@@ -313,7 +314,14 @@
                 {  
                 alert("Please enter a valid e-mail address"); 
                 }
-                alert("Your Response has been Saved");
+                else if(c=='')
+                    {
+                        alert("You sure you don't want to type in anything?");
+                    }
+                else
+                    {
+                        alert("Your Response has been submitted");
+                    }
                 
             }
                       
